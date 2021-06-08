@@ -144,7 +144,7 @@ if (jQuery) {
     let joueur1 = new Joueur('Joueur', '1', scorePlayer1, svgPlayer1, totalPlayer1)
     let joueur2 = new Joueur('Joueur', '2', scorePlayer2, svgPlayer2, totalPlayer2)
 
-    let partie = new Partie([joueur1, joueur2], 10, jouer, hold)
+    let partie = new Partie([joueur1, joueur2], 100, jouer, hold)
 
     partie.init();
 
